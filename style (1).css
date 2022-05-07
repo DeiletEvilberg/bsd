@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.page{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.page1{
+    background-color: rgb(118, 64, 64);
+}
+
+.page2{
+    background-color: rgb(0, 0, 0);
+}
+
+.page3{
+    background-color: rgb(31, 10, 43);    
+}
+.one{
+    padding: 15px 20px;
+    display: inline-block;
+    background-color: rgb(60, 136, 100);
+    border: 2px solid rgb(14, 2, 2);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#arrowTop {
+    height: 25px;
+    width: 30px;
+    color: rgb(255, 251, 0);
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+  }
+
+  #arrowTop::before {
+    content: '🔺';
+  }
+ 
